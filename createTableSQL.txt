@@ -1,0 +1,11 @@
+CREATE DATABASE mybatis;
+USE mybatis;
+
+CREATE TABLE employee ( id INT PRIMARY KEY, name VARCHAR ( 100 ) NOT NULL, email VARCHAR ( 100 ));
+INSERT INTO employee ( id, name, email )
+VALUES
+  ( 1, 'abc', 'abc@email' ),
+  ( 2, 'defg', 'defg@email' ),
+  ( 3, 'hijk', 'hijk@email' );
+  
+select * from employee;
